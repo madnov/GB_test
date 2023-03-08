@@ -5,11 +5,11 @@ def main():
     print(sort_array)
 
 def get_sort_array(array, n):
-    arr = []
+    array2 = []
     for i in array:
         if len(i) <= n:
-            arr.append(i)
-    return arr        
+            array2.append(i)
+    return array2        
 
 if __name__ == '__main__':
     main()
