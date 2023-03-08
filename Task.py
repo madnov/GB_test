@@ -6,9 +6,9 @@ def main():
 
 def get_sort_array(array, n):
     array2 = []
-    for i in array:
-        if len(i) <= n:
-            array2.append(i)
+    for i in range(len(array)):
+        if len(array[i]) <= n:
+            array2.append(array[i])
     return array2        
 
 if __name__ == '__main__':
